@@ -1,0 +1,26 @@
+{
+  "name": "git-history-diff",
+  "version": "1.0.0",
+  "description": "CLI tool that outputs the changes in the number of lines for each file in each commit in a Git repository",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "ghd": "index.js"
+  },
+  "keywords": [
+    "CLI",
+    "Git",
+    "LOC"
+  ],
+  "author": "Ádám Kovács",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "commander": "^8.3.0",
+    "shelljs": "^0.8.4"
+  }
+}
