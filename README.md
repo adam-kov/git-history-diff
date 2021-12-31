@@ -13,6 +13,7 @@ npm i -g .
 ## Usage
 
 _If a local repository is used, `cd` to the directory first_
+
 `ghd [options] <outputDir> [remote]`
 
 | Argument          | Description                                                                               |
