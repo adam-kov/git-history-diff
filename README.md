@@ -2,12 +2,10 @@
 
 This CLI tool scans a given Git repository and counts all the changes in the number of lines of code and outputs the result in a JSON file.
 
-## Install
+## Installation
 
 ```
-git clone https://github.com/n00pper/git-history-diff.git
-cd git-history-diff
-npm i -g .
+npm i -g git-history-diff
 ```
 
 ## Usage
